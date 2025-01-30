@@ -1,10 +1,10 @@
-package com.shorty_urls.backend;
+package com.shortty.url_shortener_backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackendApplicationTests {
+class UrlShortenerBackendApplicationTests {
 
 	@Test
 	void contextLoads() {
