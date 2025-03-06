@@ -1,7 +1,8 @@
 package com.shortty.url_shortener_backend.services;
 
 import com.shortty.url_shortener_backend.models.User;
-import jakarta.persistence.Entity;
+
+import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -10,7 +11,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.Collections;
 
-@Entity
+@Data
 @NoArgsConstructor
 public class UserDetailsImpl implements UserDetails {
     private static final long serialVersionUID = 1L;
