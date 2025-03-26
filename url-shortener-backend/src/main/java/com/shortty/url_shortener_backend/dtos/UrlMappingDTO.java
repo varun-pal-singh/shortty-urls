@@ -1,0 +1,23 @@
+package com.shortty.url_shortener_backend.dtos;
+
+import lombok.Data;
+
+import java.time.LocalDateTime;
+
+@Data
+public class UrlMappingDTO {
+    private Long id;
+    private String username;
+    private String originalUrl;
+    private String shortUrl;
+    private int clickCount;
+    private LocalDateTime createdTimeStamp;
+
+    public boolean isEmpty() {
+        return id == null &&
+                username == null &&
+                originalUrl == null &&
+                shortUrl == null &&
+                createdTimeStamp == null;
+    }
+}
