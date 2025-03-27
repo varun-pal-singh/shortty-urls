@@ -2,6 +2,7 @@ package com.shortty.url_shortener_backend.services;
 
 import com.shortty.url_shortener_backend.dtos.ClickEventDTO;
 import com.shortty.url_shortener_backend.dtos.UrlMappingDTO;
+import com.shortty.url_shortener_backend.models.ClickEvent;
 import com.shortty.url_shortener_backend.models.UrlMapping;
 import com.shortty.url_shortener_backend.models.User;
 import com.shortty.url_shortener_backend.repository.ClickEventRepository;
@@ -103,5 +104,29 @@ public class UrlMappingService {
         return clickEventRepository.findByUrlMappingInAndClickedAtBetween(urlMappings, start.atStartOfDay(), end.plusDays(1).atStartOfDay())
                 .stream()
                 .collect(Collectors.groupingBy(clickEvent -> clickEvent.getClickedAt().toLocalDate(), Collectors.counting()));
+    }
+
+    public UrlMapping getUrlMappingFromShortUrl(String shortUrl) {
+        List<UrlMapping> urlMappings = urlMappingRepository.findByShortUrl(shortUrl);
+        if (urlMappings == null) {
+            return null;
+        }
+        // increment the click count
+        urlMappings.forEach(urlMapping -> urlMapping.setClickCount(urlMapping.getClickCount() + 1));
+        urlMappingRepository.saveAll(urlMappings);
+
+        // record the click event
+        List<ClickEvent> clickEvents = urlMappings.stream()
+                .map(urlMapping -> {
+                    ClickEvent clickEvent = new ClickEvent();
+                    clickEvent.setUrlMapping(urlMapping);
+                    clickEvent.setClickedAt(LocalDateTime.now());
+                    return clickEvent;
+                })
+                .toList();
+
+        clickEventRepository.saveAll(clickEvents);
+
+        return urlMappings.getFirst();
     }
 }
