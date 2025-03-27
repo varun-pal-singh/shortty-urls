@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="caa475eb-43b7-49a2-8924-2ba0baaf8029" name="Changes" comment="Renamed whole project of url-shortener-backend to shortty-backend as to match with parent folder name">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/ShorttyBackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/controller/RedirectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/controller/UrlMappingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/dtos/ClickEventDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/dtos/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/dtos/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/dtos/UrlMappingDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/models/ClickEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/models/UrlMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/repository/ClickEventRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/repository/UrlMappingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/security/jwt/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/security/jwt/JwtAuthenticationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/security/jwt/JwtUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/services/UrlMappingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/services/UserDetailsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/services/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shortty/shortty_backend/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shortty/shortty_backend/ShorttyBackendApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;varun-pal-singh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/varun-pal-singh/shortty-urls.git&quot;,
+    &quot;accountId&quot;: &quot;236c0fbc-9260-4c42-9442-26e56549fb23&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/shortty/url_shortener_backend/services/UserService.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2udTkNt7lM5X4D8SY8tJSfWlg0L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.UrlShortenerBackendApplication.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/user1/wsl-projects/spring-boot/shortty-urls/backend",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.postfix.templates"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.shortty.backend.BackendApplication" />
+      <module name="backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="backend" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caa475eb-43b7-49a2-8924-2ba0baaf8029" name="Changes" comment="" />
+      <created>1742577594046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742577594046</updated>
+    </task>
+    <task id="LOCAL-00001" summary="completed login and shortening url logic using SHA-256 algorithm and BASE_62 encoding&quot;">
+      <option name="closed" value="true" />
+      <created>1743010632453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743010632453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refracted code to avoid the duplicate user registration and duplicate links for the same user problems. Implement the analytics and totalClicks api endpoints">
+      <option name="closed" value="true" />
+      <created>1743071687519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743071687521</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refracted code to avoid the duplicate user registration and duplicate links for the same user problems. Implement the analytics and totalClicks api endpoints">
+      <option name="closed" value="true" />
+      <created>1743071749043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743071749043</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Completed the redirect functionality and acquiring analytics data for the redirected shortUrls in between.">
+      <option name="closed" value="true" />
+      <created>1743075891071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743075891071</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Completed the redirect functionality and acquiring analytics data for the redirected shortUrls in between.">
+      <option name="closed" value="true" />
+      <created>1743076014030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743076014031</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Completed the redirect functionality and acquiring analytics data for the redirected shortUrls in between.">
+      <option name="closed" value="true" />
+      <created>1743076075687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743076075687</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Renamed whole project of url-shortener-backend to shortty-backend as to match with parent folder name">
+      <option name="closed" value="true" />
+      <created>1743090318885</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743090318885</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Renamed whole project of url-shortener-backend to shortty-backend as to match with parent folder name">
+      <option name="closed" value="true" />
+      <created>1743090333374</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743090333374</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Renamed whole project of url-shortener-backend to shortty-backend as to match with parent folder name">
+      <option name="closed" value="true" />
+      <created>1743090349992</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743090349992</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed login and shortening url logic using SHA-256 algorithm and BASE_62 encoding&quot;" />
+    <MESSAGE value="refracted code to avoid the duplicate user registration and duplicate links for the same user problems. Implement the analytics and totalClicks api endpoints" />
+    <MESSAGE value="Completed the redirect functionality and acquiring analytics data for the redirected shortUrls in between." />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Renamed whole project of url-shortener-backend to shortty-backend as to match with parent folder name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed whole project of url-shortener-backend to shortty-backend as to match with parent folder name" />
+  </component>
+</project>
