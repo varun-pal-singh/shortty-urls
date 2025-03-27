@@ -15,7 +15,7 @@ public class UrlMapping {
     private String originalUrl;
     private String shortUrl;
     private int clickCount = 0;
-    private LocalDateTime createdTimeStamp;
+    private LocalDateTime createdAt;
 
     // foreign relationships
     @ManyToOne

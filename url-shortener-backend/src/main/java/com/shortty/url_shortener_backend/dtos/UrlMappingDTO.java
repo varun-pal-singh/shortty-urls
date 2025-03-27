@@ -11,13 +11,5 @@ public class UrlMappingDTO {
     private String originalUrl;
     private String shortUrl;
     private int clickCount;
-    private LocalDateTime createdTimeStamp;
-
-    public boolean isEmpty() {
-        return id == null &&
-                username == null &&
-                originalUrl == null &&
-                shortUrl == null &&
-                createdTimeStamp == null;
-    }
+    private LocalDateTime createdAt;
 }

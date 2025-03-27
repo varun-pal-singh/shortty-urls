@@ -11,7 +11,7 @@ public class ClickEvent {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private LocalDateTime clickedDate;
+    private LocalDateTime clickedAt;
 
     // foreign relationships
     @ManyToOne

@@ -25,10 +25,11 @@ public class UserService {
 
     // signup user service
     public User registerUser(User user) {
+        boolean isUserAlreadyPresent = userRepository.existsByUsernameOrEmail(user.getUsername(), user.getEmail());
+        if (isUserAlreadyPresent)   return null;
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         return userRepository.save(user);
     }
-
 
     // login user service
     public JwtAuthenticationResponse authenticateUser(LoginRequest loginRequest) {
